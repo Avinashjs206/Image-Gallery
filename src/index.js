@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-import Car from './Demo';
+import Avatar from './Avatar';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Car name = 'golu'/>, document.getElementById('root'));
+ReactDOM.render(<Avatar name = 'golu' id = '1' work = 'Web Developer'/>, document.getElementById('root'));
 
 // 1st Example
 
